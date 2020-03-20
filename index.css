@@ -1,5 +1,6 @@
 body {
-  background-image: url("images\raioo.png");
+  background-color: #D7ECF4;
+  background-image: url(images\raioo.png);
   margin-left: 10%;
   margin-right: 10%;
   border: 2px black;
