@@ -1,5 +1,5 @@
 body {
-  background-image: <img src="images\raioo.png">;
+  background-image: url("images\raioo.png");
   margin-left: 10%;
   margin-right: 10%;
   border: 2px black;
