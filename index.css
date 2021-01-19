@@ -1,10 +1,255 @@
 body {
-  background-color: #D7ECF4;
-  background-image: url(images/back.png);
-  background-repeat: no-repeat;
-  background-position: 100% 0%;
-  margin-left: 10%;
-  margin-right: 10%;
+  background-color: #fffede;
+  background-image: url(images/back0.png);
+  background-size : cover;
   padding: 10px 10px 10px 10px;
-  font-family: sans-serif;
+  margin:auto;
 }
+
+
+footer {
+  background-color: rgba(255, 255, 255, 0.5);
+  background-size: 100%;
+  border-radius: 10px;
+  font-family: "ADAM.CG PRO";
+  clear: both
+}
+
+#logo {
+  width : 20%;
+  margin-left: 5%;
+  margin-bottom: 1%;
+}
+
+
+#i1 {
+  color: #444647;
+  text-align: center;
+
+}
+
+#cefet {
+  margin-top: 1%;
+  margin-left: 2%;
+  height: 100px;
+  width: auto;
+  float: left;
+}
+
+#prestxt {
+  padding: 0px 0px 0px 15% ;
+  color: #00386b;
+
+}
+
+#prestxt1{
+  color: #00386b;
+  padding: 0px 0px 0px 45% ;
+
+}
+
+#arrow{
+  height: 20px;
+  padding: 15px 10px 10px 10px;
+}
+
+#arrowg{
+  height: 35px;
+  padding: 5px 5px 5px 5px;
+}
+
+.topButton{
+  margin:0 20px 0 90%;
+  background-color: #e52129;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+}
+
+.topButton .img{
+  display: none;
+}
+
+.topButton a:hover .img{
+  display: inline;
+}
+
+.topButton a:hover .imgs{
+  display: none;
+}
+
+.topButton:after, .topButton:before {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    width: 20px;
+    height: 4px;
+    background-color: #fff;
+}
+
+#melancia{
+  left: 200px;
+  top: 10px;
+
+}
+
+#expOnAside{
+  color: #C3C3C3;
+  font-size: 0.8em;
+
+}
+
+#nameOnAside{
+  color: #e52129;
+}
+
+#fruta{
+
+
+}
+
+.menu{
+  margin:0 5% 0 5%;
+  padding: 30px 0px 30px 0px;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 5px 5px 5px #dbd9d9;
+}
+
+.menu a{
+  padding:2% 4% 2% 4%;
+  text-decoration: none;
+  font-family: "COCOGOOSE DemiBold";
+  color: #e52129;
+
+}
+
+.menu a:hover{
+  background-color: #f9f9f9;
+  background-size: 5%;
+  transition: 0.25s;
+
+}
+
+#milho{
+  position: relative;
+  width: 30em;
+  padding-top: 2%;
+  padding-bottom: -80%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.centro{
+  margin:1% 0 0 5%;
+  padding: 20px 10px 15px 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 70%);
+  text-align: center;
+  width:80%;
+  box-shadow: 5px 5px 5px #dbd9d9;
+  font-family: "COCOGOOSE DemiBold";
+  color: #00386b;
+  align-self: flex-start;
+  display:block;
+}
+
+.lateral{
+  margin:1% 0 0 5%;
+  padding: 20px 10px 15px 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 70%);
+  text-align: center;
+  width:20%;
+  box-shadow: 5px 5px 5px #dbd9d9;
+  font-family: "COCOGOOSE DemiBold";
+  color: #00386b;
+  float: left;
+  align-self: flex-start;
+  animation: fadeOut 8s ease 20s 1 forwards;
+}
+
+
+#basket{
+  margin-right: 5%;
+}
+
+#basket:hover{
+  width: 25%;
+}
+
+#balao{
+  opacity:0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 6em;
+  z-index: 1;
+}
+
+
+.mainDiv{
+  display: flex;
+  color: #444647;
+  clear: both;
+  margin: auto;
+  text-align: center;
+}
+
+
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+.circleContainer {
+    	position: relative;
+    	width: 32em;
+    	height: 32em;
+    	padding: 2.8em;
+      margin: 0 5%;
+    	border-radius: 50%;
+
+    }
+
+    .circleContainer a {
+    	display: block;
+    	position: absolute;
+    	top: 50%; left: 50%;
+    	margin: -2em;
+
+    }
+
+    .circleContainer a:hover {
+      width : 12%;
+    }
+
+    .circleContainer img { display: block; width: 100%; }
+    /*.center{width: 4em; height: 4em;
+    .deg36 {width: 4em; height: 4em; transform: rotate(36deg) translate(16em) rotate(-36deg);}
+    .deg72 {width: 4em; height: 4em; transform: rotate(72deg) translate(16em) rotate(-72deg);}
+    .deg108 {width: 4em; height: 4em; transform: rotate(108deg) translate(16em) rotate(-108deg);}
+    .deg144 {width: 4em; height: 4em; transform: rotate(144deg) translate(16em) rotate(-144deg);}
+    .deg180 {width: 4em; height: 4em; transform: translate(-16em); }
+    .deg216 {width: 4em; height: 4em; transform: rotate(216deg) translate(16em) rotate(-216deg);}
+    .deg252 {width: 4em; height: 4em; transform: rotate(252deg) translate(16em) rotate(-252deg);}
+    .deg288 {width: 4em; height: 4em; transform: rotate(288deg) translate(16em) rotate(-288deg);}
+    .deg324 {width: 4em; height: 4em; transform: rotate(324deg) translate(16em) rotate(-324deg);}
+
+
+    .deg40 { width: 4em; height: 4em; transform: rotate(40deg) translate(9em) rotate(-40deg);}
+    .deg80 {width: 4em; height: 4em; transform: rotate(80deg) translate(9em) rotate(-80deg);}
+    .deg120 {width: 4em; height: 4em; transform: rotate(120deg) translate(9em) rotate(-120deg);}
+    .deg160 {width: 4em; height: 4em; transform: rotate(160deg) translate(9em) rotate(-160deg);}
+    .deg200 {width: 4em; height: 4em; transform: rotate(200deg) translate(9em) rotate(-200deg);}
+    .deg240 {width: 4em; height: 4em; transform: rotate(240deg) translate(9em) rotate(-240deg);}
+    .deg280 {width: 4em; height: 4em; transform: rotate(280deg) translate(9em) rotate(-280deg);}
+    .deg320 {width: 4em; height: 4em; transform: rotate(320deg) translate(9em) rotate(-320deg);}
+    .deg360 {width: 4em; height: 4em; transform: rotate(360deg) translate(9em) rotate(-360deg);}
+    */
